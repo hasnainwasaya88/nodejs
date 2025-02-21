@@ -1,3 +1,16 @@
 node_modules/
 .env
-.DS_Store 
+.DS_Store
+
+# Docker
+.docker
+docker-compose.override.yml
+
+# Docker build context
+.dockerignore
+
+# Docker volumes
+docker-volumes/
+
+# Docker Desktop
+.docker/desktop-* 
